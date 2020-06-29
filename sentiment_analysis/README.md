@@ -28,5 +28,5 @@ python generate_dataset.py training.1600000.processed.noemoticon.csv
 python run_sentiment_analysis data/
 ```
 
-IPython Notebook, sentiment_analysis.ipynb can also be used for the above steps.
+IPython Notebook, sentiment_analysis.ipynb[https://github.com/mkartik/NLP_model_implementations/blob/sentiment_analysis/sentiment_analysis/sentiment_analysis.ipynb] can also be used for the above steps.
 
