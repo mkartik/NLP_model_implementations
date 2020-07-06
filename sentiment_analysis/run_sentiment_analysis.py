@@ -122,7 +122,7 @@ def generate_predictions(model, dataloader, device):
     return tweets, gold_value, predicted_value
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "data_dir", type=str, help="directory containing the test/train/validation files",
