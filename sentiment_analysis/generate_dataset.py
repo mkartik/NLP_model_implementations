@@ -37,7 +37,7 @@ def preprocess_tweet(text):
     return text
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "input_dataset", type=str, help="input dataset file (.csv)",
